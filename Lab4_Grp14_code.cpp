@@ -6,12 +6,14 @@ int mult(int mul_1, int mul_2);
 int shft(int s, int n);
 
 int main(){
-    int mul_1, mul_2; 
-
+    int mul_1, mul_2;
+    cout << "Enter two integers to multiply!\n";
+    cout << "Num1: ";
     cin >> mul_1;
+    cout << "Num2: ";
     cin >> mul_2;
 
-    cout << mult(mul_1, mul_2) << endl;
+    cout << "Product: " << mult(mul_1, mul_2) << endl;
 
     return 0;
 }
